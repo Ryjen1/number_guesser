@@ -1,31 +1,42 @@
-# Number Guessing Game 🎮
+# Number Guessing Game
 
-This is a simple number guessing game I built using HTML, CSS, and JavaScript.
-
-It's just for fun — you try to guess a secret number between 1 and 100 in **3 tries**.  
-Yeah, only 3. No mercy 😄
+This is a simple number guessing game built using HTML, CSS, and JavaScript.  
+The goal is to guess a secret number between 1 and 100 in three tries.
 
 ---
 
-## How it works
+## How It Works
 
-There's a hidden number (from 1 to 100).  
-You type in your guess, and the game gives you hints:
+A random number between 1 and 100 is generated when the game starts.  
+You have up to three chances to guess it right.  
+After each guess, you'll get feedback to help you decide your next move:
 
-- 🔥 If you're really close
-- 🎯 If you're kinda close
-- ⬆ or ⬇ if you're way off
+- If your guess is very close to the correct number, you’ll be told so.
+- If you're somewhat close, you’ll get a hint.
+- If you're far off, the game will let you know whether to go higher or lower.
+
+Once you win or run out of attempts, the game ends. You can start a new game anytime.
 
 ---
 
-## What I used
+## Features
 
-- HTML for layout
-- CSS for styling (just a bit of color and spacing)
-- JS for the logic — random numbers, checking guesses, tracking stats
+- Clean and responsive layout
+- Live feedback after each guess
+- Tracks how many games you've played and won
+- Keyboard support (press Enter to submit)
+- Simple and easy to understand
+
+---
+
+## Technologies Used
+
+- HTML for structure
+- CSS for styling
+- JavaScript for interactivity
 
 ---
 
 ## Author
 
-## Coded by Maryjane
+Coded by [Maryjane Okafor]
