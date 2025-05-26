@@ -8,7 +8,7 @@ The goal is to guess a secret number between 1 and 100 in three tries.
 ## How It Works
 
 A random number between 1 and 100 is generated when the game starts.  
-You have up to three chances to guess it right.  
+You have from 7-15 chances to guess it right.  
 After each guess, you'll get feedback to help you decide your next move:
 
 - If your guess is very close to the correct number, you’ll be told so.
