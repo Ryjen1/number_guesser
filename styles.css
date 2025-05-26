@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ffe0f0, #fff);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #ec407a;
+}
+
+main {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.stats,
+.game {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+.feedback {
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.default {
+  background-color: #fce4ec;
+  color: #c2185b;
+}
+.won {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+.lost {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.attempts {
+  margin: 20px 0;
+}
+
+input[type="number"] {
+  padding: 10px;
+  width: 80%;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submitGuess {
+  background-color: #ec407a;
+  color: white;
+}
+
+#newGame {
+  background-color: #7e57c2;
+  color: white;
+}

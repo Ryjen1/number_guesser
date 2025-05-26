@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Number Guessing Game</h1>
+        <p>Guess the secret number between 1 and 100!!</p>
+        <p>Let's go 🚀🚀🚀</p>
+      </header>
+
+      <main>
+        <section class="stats">
+          <h2>Game Stats</h2>
+          <p>Games Played: <span id="gamesPlayed">0</span></p>
+          <p>Games Won: <span id="gamesWon">0</span></p>
+        </section>
+
+        <section class="game">
+          <h2>Guess the Number</h2>
+          <select id="difficulty">
+            <option value="easy">Easy (15 attempts)</option>
+            <option value="medium" selected>Medium (10 attempts)</option>
+            <option value="hard">Hard (7 attempts)</option>
+          </select>
+
+          <div id="feedback" class="feedback default">
+            Guess a number between 1 and 100!
+          </div>
+
+          <div class="attempts">
+            <p>
+              Attempts: <span id="attempts">0</span>/<span id="maxAttempts"
+                >10</span
+              >
+            </p>
+            <p>Remaining: <span id="remainingAttempts">10</span></p>
+          </div>
+
+          <input
+            type="number"
+            id="guessInput"
+            placeholder="Enter your guess (1-100)"
+            min="1"
+            max="100"
+          />
+          <button id="submitGuess">Submit Guess</button>
+          <button id="newGame">New Game</button>
+        </section>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
