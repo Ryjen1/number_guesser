@@ -37,6 +37,6 @@ Once you win or run out of attempts, the game ends. You can start a new game any
 
 ---
 
-## Author
+## Developer
 
 Maryjane Okafor aka Ryjen
