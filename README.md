@@ -1,7 +1,7 @@
 # Number Guessing Game
 
 This is a simple number guessing game built using HTML, CSS, and JavaScript.  
-The goal is to guess a secret number between 1 and 100 in three tries.
+The goal is to guess a secret number between 1 and 100 in 7-15 tries.
 
 ---
 
